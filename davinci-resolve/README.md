@@ -114,4 +114,10 @@ Exec=/home/<username>/.local/bin/resolve-wrapper %U
 
 ---
 
-اگر خواستی نسخه انگلیسی هم برات بسازم یا یک نسخه کوتاه‌تر مخصوص الگوریتم لینکدین بدم—فقط بگو.
+
+
+# Command for transform vidoe for Davinci Resolve with ffmpeg
+
+```bash
+ffmpeg -i VID_20251208_133600.mp4 -c:v copy -c:a pcm_s16le output.mov
+```
